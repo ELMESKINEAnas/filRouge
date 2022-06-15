@@ -1,0 +1,45 @@
+
+.card-header:first-child {
+    border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0;
+}
+.card-header {
+    margin-bottom: 0;
+    position: relative;
+    padding: 2rem;
+    border-bottom: none;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    z-index: 2;
+}
+
+.card {
+    border: none;
+    -webkit-box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 1rem;
+}
+
+.card-body{
+    padding: 2rem;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.bg-green {
+    background-color: #35b653!important;
+}
+
+.text-uppercase {
+    letter-spacing: .2em;
+}
+
+/* .recharts-layer{
+    opacity: 40%;
+} */

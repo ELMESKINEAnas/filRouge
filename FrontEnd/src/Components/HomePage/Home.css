@@ -1,0 +1,34 @@
+
+.count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.commande {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 57px;
+    padding: 1.5rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+.descCommande{
+    margin-left: -17%;
+    margin-top: 5%;
+}
+
+.ellipse1{
+    margin-top: -5px;
+    color: #FEBD00;
+    font-size: medium;
+}
+
+.ellipse2{
+    margin-top: -8px;
+    color: #FEBD00;
+    font-size: xx-large;
+}
